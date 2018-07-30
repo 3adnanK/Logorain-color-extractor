@@ -80,6 +80,6 @@ if __name__ == '__main__':
             main_colors = None
             print("Error:", err)
     else:
-	    raise Exception('You have to add an image path or url')
+        raise Exception('You have to add an image path or url')
 		
     print(main_colors)
