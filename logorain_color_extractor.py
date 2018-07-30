@@ -1,11 +1,10 @@
-from PIL import Image, ImageColor
+from PIL import Image
 import base64
 from io import BytesIO
 import requests
 import numpy as np
 from collections import Counter
 from argparse import ArgumentParser
-import os
 
 def get_colors(img_path, is_url=False):
     if is_url:
